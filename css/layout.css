@@ -1,0 +1,83 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+html, body {width: 100%;}
+body {height: 100%; background: white; font-family: 'Noto Sans KR', 'Noto Sans', sans-serif; font-size: 12px; color: #000000;}
+* {padding: 0; margin: 0; border: 0;}
+a {text-decoration: none;}
+ul {list-style: none;}
+ol {list-style: none;}
+
+/* 네비 부분 */
+
+
+.header {width: 100%; height: 90px; position: fixed; margin-bottom: 0px; background-color: rgba(255, 255, 255, 0);}
+.header .logo {float:left; width:195px; height:50px; margin: 20px 0 0 30px;}
+.header .logo .logo_img {width:195px; height:50px; margin:0;}
+.header .nav {float: right; margin: 30px 30px 0 0;}
+.header .nav li {display: inline; margin-right: 10px; text-decoration: none; font-weight: bold; color:#000; font-size: 20px;}
+.header .nav a {color: white;}
+.header .nav a:hover {color: black;}
+.header .mnav {display:none }
+
+.header._after {width: 100%; height: 70px; position: fixed; background-color: rgba(255, 255, 255, 0.5); z-index: 2;}
+.header._after .logo {float:left; width:156px; height:40px; margin-top: 15px; margin-left: 30px;}
+.header._after .logo .logo_img {width:156px; height:40px; margin:0;}
+.header._after .nav {float: right; margin-top: 20px; margin-right: 30px;}
+.header._after .nav a {color: Black;}
+.header._after .nav a:hover {color: #040dbf;}
+.header._after .mnav {display:none }
+
+@media screen and (max-width:767px) {
+    .header {width: 100%; height: 60px; position: fixed;}
+    .header .logo {width: auto; height: 30px; margin-top: 15px; margin-left:10px; float: left;}
+    .header .logo .logo_img {width:117px; height:30px; margin:0;}
+    .header .mnav {display:block; margin-right:10px; margin-top:15px;}
+    .header .mnav .m_down {width: 117px; height:30px; margin:0; float:right; color: black; font-size: 1.5em; text-align: center; border-width: 1px; border-color: #000000; border-style: solid; border-radius: 5px; background-color: #f0f0f2;}
+    .header .nav {display:none;}
+    .header .mnav{display:none;}
+
+    .header._after {width: 100%; height: 60px; position: fixed;}
+    .header._after .logo {width: auto; height: 30px; margin-top: 15px; margin-left:10px; float: left;}
+    .header._after .logo .logo_img {width:117px; height:30px; margin:0;}
+    .header._after .mnav {display:block; height:60px; width: auto; margin: 0px;}
+
+    .header._after .mnav
+    .header._after .mnav .before {width: 50px; margin: 0px 10px 0px 10px;}
+    .header._after .mnav .before .hamburger {width: 30px; height: 30px; margin: 15px 10px; float: right;}
+    #hamburger_after {width:100%; height:100vh; background-color:white;}
+    #hamburger_after .hamburger_nav {position:absolute; top:60px; width:100%; height:calc(100vh - 60px); background-color:black;}
+    #hamburger_after .hamburger_nav .hamburger_nav_list {position:absolute; text-align:center; font-size:5em; font-weight: bold; top: calc(50% - 178px); left: calc(50% - 123.24px);}
+    #hamburger_after .hamburger_nav li a {text-align: center; color:white;}
+
+    .header._after .nav {display:none;}
+}
+
+
+
+/* 푸터 부분 */
+
+.footer {width: 100%; height: 20vh; background-color: black; color: white; } 
+.footer {width:100%; height: auto; padding: 20px 0px 20px;}
+.footer .footer_contents {width: 90%; margin:auto;}
+.footer .footer_logo {width:195px; height:50px; margin:30px auto 30px;}
+.footer .footer_logo .logo_img {width:195px; height:50px; margin:0px auto;}
+.footer .footer_text {width:100%; height: auto; margin: 0px auto 30px; }
+.footer .footer_text ul {width:100%; height:auto;  text-align:center; font-size: 1.5em;}
+
+
+@media screen and (min-width : 1024px) {
+    .footer .footer_text ul {font-size: 1.5em;}
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .footer .footer_logo {width:117px; height:30px;}
+    .footer .footer_logo .logo_img {width:117px; height:30px;}
+    .footer .footer_text ul {font-size: 1.2em;}
+}
+
+@media screen and (max-width : 767px) {
+    .footer .footer_logo {width:117px; height:30px;}
+    .footer .footer_logo .logo_img {width:117px; height:30px;}
+    .footer .footer_text ul {font-size: 1em;}
+}
+

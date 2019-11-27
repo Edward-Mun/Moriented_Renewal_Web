@@ -1,0 +1,53 @@
+
+
+/* 컨텐츠 와꾸 잡기 */
+
+#btn-introduction-company {width: auto; height: auto; background-color:#040dbf; font-size: 18px; font-weight: 700; border-radius: 5px; padding:15px;}
+.contents {position:static; width: 100%; height: auto; } 
+.contents h1 {font-size: 5em; margin-top:10px; color:black; text-align: left;}
+.contents h2 {font-size: 3em;}
+.contents h3 {font-size: 2em;}
+p {font-size: 1.5em;}
+.text_wrap p {font-size: 1.5em;}
+.text_wrap {display: inline-block; width: 600px; vertical-align: bottom;}
+
+/* 컨텐츠 와꾸 잡기 */
+
+.people_contents {background-color:white; padding: 30px 50px 30px;}
+.people_contents:nth-child(2) {background-color: #f0f0f2;}
+.people_contents:nth-child(1) {height:auto; padding: 100px 50px 100px;}
+.people_contents p {color: #000; text-align: center;}
+.people_contents .text_rec {margin: -150px auto auto 0; width: 300px; height: 130px; background-color: black; padding-top: 0px; display: inline-block;}
+.people_contents .text_rec h1 {font-size: 3em; text-align: center; color: white;}
+
+/* 컨택 정리 후 해제 */
+#contact {display: none;}
+/* 컨택 정리 후 해제 */
+
+
+.people_contents .text_wrap_sub {width:auto; height:auto; margin: 5% auto 5%;}
+.people_contents .culture_overview {width: 1100px; background-color: white; margin: 5% auto 5%; height: auto; max-width: 1344px;}
+.people_contents .culture_overview .culture_block {width: 300px; height:auto; display:inline-block; padding:auto 15px;} /* 이거 편집 필요 */
+.people_contents .culture_overview .culture_block:nth-child(1) {margin-left: 50px;float:left;}
+.people_contents .culture_overview .culture_block:nth-child(2) {margin-left: 50px; margin-right: 50px;}
+.people_contents .culture_overview .culture_block:nth-child(3) {margin-right: 50px;float:right;}
+
+.people_contents .culture_overview .culture_component {width:300px; background-color: #f0f0f2; height: 185px; padding-top:20px; display: block;}
+.people_contents .culture_overview .culture_component:nth-child(2) {margin-top: 50px;}
+.people_contents .culture_overview .culture_component:nth-child(3) {margin-top: 50px; margin-bottom: auto;}
+.people_contents .culture_overview .culture_component .culture_head {position:relative; width:150px; height: 40px; margin: -40px auto auto 5px; background-color:black;}
+.people_contents .culture_overview .culture_component .culture_head h3 {color: white; margin: 2px auto 0px 5px;}
+.people_contents .culture_overview .culture_component .culture_bottom {width: calc(100% - 20px); height: auto; margin: 10px auto auto 5px; text-align:left; vertical-align: bottom;}
+.people_contents .culture_overview .culture_component p {text-align:left; margin-left: 10px; height:165px}
+
+
+.people_contents .culture_overview .culture_head p {text-align: left;}
+
+
+
+.people_contents .culture_overview .culture_bottom
+.people_contents .culture_overview .culture_bottom 
+
+
+
+

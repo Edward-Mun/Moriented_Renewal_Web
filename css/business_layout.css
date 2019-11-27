@@ -1,0 +1,130 @@
+
+
+/* 컨텐츠 와꾸 잡기 */
+
+#btn-introduction-company {width: auto; height: auto; background-color:#040dbf; font-size: 18px; font-weight: 700; border-radius: 5px; padding:15px;}
+.contents {position:static; width: 100%; height: auto; } 
+.contents h1 {font-size: 5em; margin-top:10px; color:black; text-align: left;}
+.contents h2 {font-size: 3em;}
+.contents h3 {font-size: 2em;}
+p {font-size: 1.5em;}
+.text_wrap p {font-size: 1.5em;}
+.text_wrap {display: inline-block; width: 600px; vertical-align: bottom;}
+
+/* 컨텐츠 와꾸 잡기 */
+
+.business_contents {height:100vh; background-color:#f0f0f2; padding: 30px 50px 30px;}
+.business_contents:nth-child(2n) {background-color: white;}
+.business_contents:nth-child(1) {height:100vh; padding: 100px 50px 100px;}
+.business_contents p {color: #000; text-align: center;}
+
+.business_contents .text_rec {margin: -150px auto auto 0; width: 300px; height: 130px; background-color: black; padding-top: 0px; display: inline-block;}
+.business_contents .text_rec h1 {font-size: 3em; text-align: center; color: white;}
+
+/* 3-Dimension */
+
+
+
+
+
+.business_contents .business_overview {display:table; width:100%; height:100%; margin: 10% auto 10%;}
+.business_contents .business_overview .service {display:table; width: 1344px; height:auto; margin: 0 auto;}
+.business_contents .business_overview .service .component_border {display:table-cell; vertical-align: middle; width:1023px; height: auto; background-color: black; border-radius: 400px;}
+.business_contents .business_overview .service .component_border .component {position:relative; vertical-align: middle; display:inline-block; width:300px; height:auto;}
+.business_contents .business_overview .service .component_border .component:nth-child(1) {margin: auto 0px auto 30px;}
+.business_contents .business_overview .service .component_border .component:nth-child(2) {margin: auto 30px auto;}
+.business_contents .business_overview .service .component_border .component:nth-child(3) {float:right; margin: auto 30px auto 0px;}
+.business_contents .business_overview .service .component_border .component .component_inner {height:0px; width: 100%; padding-bottom:100%; background-color:white; border-radius: 100%; margin:auto;}
+.business_contents .business_overview .service .component_border .component .component_inner h2 {color:#040dbf; text-align:center; font-size:2.5em; margin:auto; padding-top:10%;}
+.business_contents .business_overview .service .component_border .component .component_inner p {font-size: 1.2em; padding-top:calc(50% - 120px);}
+
+
+
+.business_contents .business_overview .service .component_goal_border {display:table-cell; vertical-align: middle; width:auto; margin: 0px auto;}
+.business_contents .business_overview .service .component_goal_border .component_goal {position:relative; width:290px; height: auto; display: inline-block; margin:auto; vertical-align: middle;}
+.business_contents .business_overview .service .component_goal_border .component_goal .component_inner {height:0px; width: 100%; padding-bottom:100%; background-color:white; border-radius: 100%; margin:auto; border-width: 30px; border-color: #f24949; border-style: solid;}
+.business_contents .business_overview .service .component_goal_border .component_goal .component_inner h2 {color: #f24949; text-align:center; font-size:3em; margin: auto; padding-top:  calc(50% - 54px);}
+
+
+/* 여기 부터 수정 필요 */
+
+
+.business_contents .text_wrap_sub {width:auto; height:auto; margin: 100px auto 50px;}
+.business_contents .integration_mkt {width: 100%; background-color: white; margin: auto; height: 600px; max-width: 1344px;}
+.business_contents .integration_mkt h3 {color:white;}
+.business_contents .integration_mkt .integration_mkt_slogan {height: 60px; text-align: center; color: blue; width:100%; background-color:rgba(255, 255, 255, 0);}
+
+.business_contents .integration_mkt .integration_mkt_slogan h3 {color: blue;}
+
+.business_contents .integration_mkt .integration_mkt_insight {height: 60px; border-width: 0px; border-style: solid; background-color:#f24949; border-radius: 100px; color: white; width: calc(100% - 24px); margin: auto;}
+.business_contents .integration_mkt .integration_mkt_ad {height: 300px;float:left; border-color: white; border-width: 0px; border-style: solid; border-radius: 25px; width:calc(20% - 16px); background-color:rgba(242, 73, 73, 0.8); border-width: 2px; margin: 10px 5px 10px 10px;}
+.business_contents .integration_mkt .integration_mkt_main {height: 304px;float:left; width:calc(60% - 16px); margin: 10px 5px 10px;}
+.business_contents .integration_mkt .integration_mkt_conversion {height: 300px ;float:left; border-color: white; border-width: 0px; border-style: solid; border-radius: 25px; width:calc(20% - 16px); background-color:rgba(4, 13, 191, 0.8); border-width: 2px; margin: 10px 10px 10px 5px;}
+.business_contents .integration_mkt .integration_mkt_tracking {height: 60px; clear:both; border-width: 0px; border-style: solid; background-color: #040dbf; border-radius: 100px; color:white; width: calc(100% - 24px); margin: auto;}
+
+.business_contents .integration_mkt .integration_mkt_main .integration_mkt_branding {height: calc(50% - 4px);margin: 0px auto 10px;}
+.business_contents .integration_mkt .integration_mkt_main .integration_mkt_performance {height: calc(50% - 4px);margin-top: 5px;}
+
+.business_contents .integration_mkt .integration_mkt_main .integration_mkt_branding .integration_mkt_branding {}
+
+.business_contents .integration_mkt .integration_mkt_main .integration_mkt_component {display:inline-block; width:calc(25% - 13px); height: 144px; border-color: white; border-width: 2px; border-style: solid; border-radius: 25px; color:black; margin-right: 10px;}
+.business_contents .integration_mkt .integration_mkt_main .integration_mkt_component:nth-last-child(1) {float:right; margin-right: 0px;}
+.business_contents .integration_mkt .integration_mkt_main .integration_mkt_branding .integration_mkt_component {background-color:rgba(242, 73, 73, 0.4);}
+.business_contents .integration_mkt .integration_mkt_main .integration_mkt_performance .integration_mkt_component {background-color:rgba(4, 13, 191, 0.4);}
+
+
+.business_contents .integration_mkt .integration_mkt_main .integration_mkt_component .component {display:inline-block;}
+
+.business_contents .integration_mkt .integration_mkt_tracking .integration_mkt_component {}
+.business_contents .integration_mkt .integration_mkt_insight .integration_mkt_component {}
+.business_contents .integration_mkt .integration_mkt_ad .integration_mkt_component {}
+.business_contents .integration_mkt .integration_mkt_conversion .integration_mkt_component {}
+
+
+
+.business_contents .integration_mkt h3 {text-align: center;}
+
+
+.business_contents .integration_mkt li {text-align: center; display:inline-block;}
+
+
+.business_contents .integration_mkt .triangle_top {margin: auto; display:inline-block; width:0; height:0; border-style:solid; border-width:10px; border-color:  transparent transparent rgba(0, 0, 0, 0.2) transparent;}
+
+.business_contents .integration_mkt .triangle_bottom {display:inline-block; width:0; height:0; border-style:solid; border-width:10px; border-color: rgba(0, 0, 0, 0.2) transparent transparent transparent;}
+.business_contents .integration_mkt .triangle_right {display:inline-block; width:0; height:0; border-style:solid; border-width:10px; border-color:transparent transparent transparent #f0f0f2;}
+/* 여기도 수정 필요 */
+
+
+
+.text_rec {margin: -150px auto auto 0; width: 300px; height: 200px; background-color: black; padding-top: 54px;}
+.text_rec h1 {font-size: 3em; text-align: center; color: white;}
+
+
+@media screen and (min-width : 1024px) {
+  
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .index_contents h2 {font-size: 1.5em;}
+    .index_contents h1 {font-size: 3em;}
+    .index_contents h3 {font-size: 1em;}
+    .index_contents p {font-size: 1em;}
+   
+}
+
+
+@media screen and (max-width : 767px) {
+  
+}
+
+
+
+
+/* 여기서부터 해야함 */
+
+
+
+
+
+
+
