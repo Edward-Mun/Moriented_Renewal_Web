@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MORIENTED - Unlimited Growth!</title>
+        <!-- 파비콘-->
+        <link rel="shortcut icon" href="/img/pavicon.ico">
+        <link rel="icon" href="/img/pavicon.ico">
+        <!-- 파비콘 호출 끝 (삽입 필요)-->
+        <link href="/css/layout.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+        <!-- 페이지 정리 후 하기 css 연결 필요-->
+        <link href="/css/about_layout.css" rel="stylesheet">
+
+        <!-- 헴버거 버튼 스크립트-->
+        <script type="text/javascript">
+            function showHide(id) {
+                var obj = document.getElementById(id);
+                if (obj.style.display == 'none')
+                    obj.style.display = 'block';
+                else
+                    obj.style.display = 'none';
+            }
+        </script>
+        <!-- 햄버거 버튼 스크립트 끝 -->
+
+    </head>
+    <body>
+        <!-- 네비게이션 공통 부분 -->
+        <div class="header">
+            <div class="logo">
+                <!-- -->
+                <a href="https://moriented.co.kr">
+                    <img class="logo_img" src="/img/logo.png" alt="Moriented">
+                </a>
+            </div>
+            <ul class="nav">
+                <li>
+                    <a href=about.html>About</a>
+                </li>
+                <li>
+                    <a href="business.html">Business</a>
+                </li>
+                <li>
+                    <a href="people.html">People</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="mnav">
+                <!-- 햄버거 메뉴 내용 -->
+                <div class="before" onclick="showHide('hamburger_after')" onfocus="this.blur()"><img class="hamburger" src="/img/hamburger.png"></div>
+                <div id="hamburger_after" style="display:none">
+                    <div class="hamburger_nav">
+                        <ul class="hamburger_nav_list">
+                            <li>
+                                <a href=about.html>About</a>
+                            </li>
+                            <li>
+                                <a href="business.html">Business</a>
+                            </li>
+                            <li>
+                                <a href="people.html">People</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 햄버거 메뉴 내용 끝 -->        
+            </div>
+        </div>
+        <!-- 네비게이션 공통 부분 끝 -->
+
+        <!-- 상단 메뉴 줄이기 -->
+        <script type="text/javascript">     
+            window.addEventListener('scroll', function() {
+            var el = document.querySelector('.header');
+            var es = document.querySelector("#hamburger_after").style.display;
+        
+            if(window.scrollY >= 10 || es === "block") el.classList.add('_after');
+            else el.classList.remove('_after');
+            });
+        </script>
+        <!-- 상단 메뉴 줄이기 끝 -->
+
+        <div class="contents">
+            <div id="about">
+                <div class="about_contents">
+                            <div class="text_wrap">
+                                <h1>Ongoing Growth.</h1>
+                                <hr style="width: 10%; color:black; border: thin solid;">
+                                <h3>눈앞의 숫자가 아닌, 지속적인 성장을 지향합니다.</h3>
+                            </div>
+                            <div class="text_wrap_sub">
+                                <p>퍼포먼스 마케팅에 대한 믿음과 오해가 만연하고 있습니다만,
+                                <br>우리는 단기 성과에 매몰되는 퍼포먼스 마케팅이 아닌,
+                                <br>장기 성장을 추구하는 통합 디지털 커뮤니케이션을 수행합니다.
+                                </p>
+                            </div>
+                            <div class="integration_mkt">
+                                <div class="integration_mkt_slogan">
+                                    <h3>Moriented Integration Digital Marketing Frame Work</h3>
+                                </div>
+                                <div class="integration_mkt_insight">
+                                    <div class ="integration_mkt_component">
+                                        <h3>Intuitive Insight</h3>
+                                        <p>직관 / 통합적 사고</p>
+                                    </div>
+                                </div>
+                                <div class="integration_mkt_ad">
+                                    <div class="integration_mkt_component">
+                                        <h3>Advertising<br>Exposure</h3>
+                                        <p>광고 노출</p>
+                                    </div>
+                                </div>
+                                <div class="integration_mkt_main">
+                                    <div class="integration_mkt_branding">
+                                    <ol class="integration_mkt_branding_list">
+                                        <li class="integration_mkt_component">
+                                            <div class="component">
+                                                <h3>Awareness</h3>
+                                                <p>브랜드 인지</p>
+                                            </div>
+                                        </li>
+                                        <li class="integration_mkt_component">
+                                            <div class="component">
+                                                <h3>Engagement</h3>
+                                                <p>브랜드 관여</p>
+                                            </div>
+                                        </li>
+                                        <li class="integration_mkt_component">
+                                            <div class="component">
+                                                <h3>Preference</h3>
+                                                <p>브랜드 선호</p>
+                                            </div>
+                                        </li>
+                                        <li class="integration_mkt_component">
+                                            <div class="component">
+                                                <h3>Advocacy</h3>
+                                                <p>브랜드 지지</p>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    </div>
+                                    <div class="integration_mkt_performance">
+                                    <ol class="integration_mkt_performance_list">
+                                        <li class="integration_mkt_component">
+                                            <div class="component">
+                                            <h3>Acquisition</h3>
+                                            <p>서비스 유입</p>
+                                            </div>
+                                        </li>
+                                        <li class="integration_mkt_component">
+                                            <div class="component">
+                                            <h3>Experience</h3>
+                                            <p>서비스 경험</p>
+                                            </div>
+                                        </li>
+                                        <li class="integration_mkt_component">
+                                            <div class="component">
+                                            <h3>Conversion</h3>
+                                            <p>전환 / 목표</p>
+                                            </div>
+                                        </li>
+                                        <li class="integration_mkt_component">
+                                            <div class="component">
+                                            <h3>Retention</h3>
+                                            <p>재이용 / 재구매</p>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    </div>
+                                </div>
+                                <div class="integration_mkt_conversion">
+                                    <div class="integration_mkt_component">
+                                            <h3>Marketing<br>Goal</h3>
+                                            <p>마케팅 목표 달성</p>
+                                    </div>
+                                </div>
+                                <div class="integration_mkt_tracking">
+                                    <div class ="integration_mkt_component">
+                                        <h3>Data-Driven Insight</h3>
+                                        <p>정보 / 경험적 사고</p>
+                                        </div>
+                                    </div>
+                                </div>        
+        
+                </div>
+
+                <div class="about_contents">
+                        <div class="text_wrap">
+                                <h1>Portfolio.</h1>
+                                <hr style="width: 10%; color:black; border: thin solid;">
+                        </div>
+
+                        <div class="text_wrap_sub">
+                                <p>커머스, 플랫폼, 어플리케이션 등<br>
+                                분야를 막론한 다양한 고객사와 캠페인을 진행하고 있습니다.</p>
+                            </div>
+                    <div class="portfolio">
+                        <div class="portfolio_table">
+                            <div class="portfolio_cell">
+                                <img src="\img\portfolio\logo_slou.png" class="portfolio_logo">
+                            </div>
+                            <div class="portfolio_cell">
+                                    <img src="\img\portfolio\logo_hobbyful.png" class="portfolio_logo">
+                            </div>
+                            <div class="portfolio_cell">
+                                    <img src="\img\portfolio\logo_otrouve.png" class="portfolio_logo">
+                            </div>
+                            <div class="portfolio_cell">
+                                <img src="\img\portfolio\logo_marymond.png" class="portfolio_logo">
+                            </div>           
+                        </div>
+                        <div class="portfolio_table">
+                                <div class="portfolio_cell">
+                                    <img src="\img\portfolio\logo_magam.png" class="portfolio_logo">
+                                </div>
+                                <div class="portfolio_cell">
+                                        <img src="\img\portfolio\logo_odoctor.png" class="portfolio_logo">
+                                </div>
+                                <div class="portfolio_cell">
+                                        <img src="\img\portfolio\logo_sanhait.png" class="portfolio_logo">
+                                </div>
+                                <div class="portfolio_cell">
+                                    <img src="\img\portfolio\logo_unicorn.png" class="portfolio_logo">
+                                </div>           
+                        </div>
+                        <div class="portfolio_table">
+                                <div class="portfolio_cell">
+                                    <img src="\img\portfolio\logo_hobbyful.png" class="portfolio_logo">
+                                </div>
+                                <div class="portfolio_cell">
+                                        <img src="\img\portfolio\logo_hobbyful.png" class="portfolio_logo">
+                                </div>
+                                <div class="portfolio_cell">
+                                        <img src="\img\portfolio\logo_hobbyful.png" class="portfolio_logo">
+                                </div>
+                                <div class="portfolio_cell">
+                                    <img src="\img\portfolio\logo_hobbyful.png" class="portfolio_logo">
+                                </div>           
+                            </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div id="contact">
+                <div class="contact_contents">
+                    <div class="text_wrap">
+                        <h1>We<br>Work for<br>Unlimited Growth.</h1>
+                        <hr style="width: 10%; color:white; border: thin solid;">
+                        <h2>끝없는 성장을 지향한다면,
+                            <br>지금 바로 문의주세요.
+                        </h2>
+                        <div class="lead" style="margin-top: 50px;">
+                            <button id="btn-introduction-company">
+                                <a href="/docs/MRNTD_Introduction_1012.pdf" style="color: white;">Introduction Download</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="input_layer">
+                        <div class="component">
+                            <div class="key">
+                                <p>성함 *</p>
+                            </div>
+                            <div class="value">
+                                <input type="text" name="my_name">
+                            </div>
+                        </div>
+                        <div class="component">
+                            <div class="key">
+                                <p>메일 *</p>
+                            </div>
+                            <div class="value">
+                                <input type="text" name="my_email">
+                            </div>
+                        </div>
+                        <div class="component">
+                                <div class="key">
+                                    <p>문의 내용</p>
+                                </div>
+                                <div class="value">
+                                    <input type="text" name="my_contents">
+                                </div>
+                        </div>
+                        <div class="component">
+                            <div class="send">
+                                <button id="btn-send">
+                                    <p>문의하기</p>
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- 푸터 공통 부분 -->
+<div class="footer">
+    <div class="footer_contents">
+        <div class="footer_logo">
+            <img class="logo_img" src="/img/logo_w.png" alt="Moriented">
+        </div>
+        <div class="footer_text">
+        <ul class="name_inc">
+            <li><b>회사명 : </b>(주)모리엔티드 | <b>대표 : </b>문연윤 | <b>주소 : </b>서울특별시 강남구 테헤란로6길 26, 4층(역삼동, 강남포르테빌딩)</li>
+            <li><b>사업자등록번호 : </b> 743-81-01288 | <b>전화번호 : </b>02-6956-6997~6998 | <b>이메일 : </b>marketing@moriented.co.kr</li>
+            <li class="copyright">Copyright ⓒ 2019 Moriented All rights reserved.</li>
+        </ui>
+        </div>
+    </div>
+</div>
+<!-- 푸터 공통 부분 끝 -->
+</body>
+</html>

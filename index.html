@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MORIENTED - Unlimited Growth!</title>
+        <!-- 파비콘-->
+        <link rel="shortcut icon" href="/img/pavicon.ico">
+        <link rel="icon" href="/img/pavicon.ico">
+        <!-- 파비콘 호출 끝 (삽입 필요)-->
+        <link href="/css/layout.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+        <!-- 페이지 정리 후 하기 css 연결 필요-->
+        <link href="/css/index_layout.css" rel="stylesheet">
+
+        <!-- 헴버거 버튼 스크립트-->
+        <script type="text/javascript">
+            function showHide(id) {
+                var obj = document.getElementById(id);
+                if (obj.style.display == 'none')
+                    obj.style.display = 'block';
+                else
+                    obj.style.display = 'none';
+            }
+        </script>
+        <!-- 햄버거 버튼 스크립트 끝 -->
+
+    </head>
+    <body>
+        <!-- 네비게이션 공통 부분 -->
+        <div class="header">
+            <div class="logo">
+                <!-- -->
+                <a href="https://moriented.co.kr">
+                    <img class="logo_img" src="/img/logo.png" alt="Moriented">
+                </a>
+            </div>
+            <ul class="nav">
+                <li>
+                    <a href=about.html>About</a>
+                </li>
+                <li>
+                    <a href="business.html">Business</a>
+                </li>
+                <li>
+                    <a href="people.html">People</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="mnav">
+                <!-- 햄버거 메뉴 내용 -->
+                <div class="before" onclick="showHide('hamburger_after')" onfocus="this.blur()"><img class="hamburger" src="/img/hamburger.png"></div>
+                <div id="hamburger_after" style="display:none">
+                    <div class="hamburger_nav">
+                        <ul class="hamburger_nav_list">
+                            <li>
+                                <a href=about.html>About</a>
+                            </li>
+                            <li>
+                                <a href="business.html">Business</a>
+                            </li>
+                            <li>
+                                <a href="people.html">People</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 햄버거 메뉴 내용 끝 -->        
+            </div>
+        </div>
+        <!-- 네비게이션 공통 부분 끝 -->
+
+        <!-- 상단 메뉴 줄이기 -->
+        <script type="text/javascript">     
+            window.addEventListener('scroll', function() {
+            var el = document.querySelector('.header');
+            var es = document.querySelector("#hamburger_after").style.display;
+        
+            if(window.scrollY >= 10 || es === "block") el.classList.add('_after');
+            else el.classList.remove('_after');
+            });
+        </script>
+        <!-- 상단 메뉴 줄이기 끝 -->
+
+        <div class="contents">
+                <div class="first_contents">
+                    <div class="text_wrap">
+                        <h1>We<br>Work for<br>Unlimited Growth.</h1>
+                        <hr>
+                        <h2>우리는 끝없는 성장을 지향합니다.</h2>
+                        <div class="lead" style="margin-top: 50px;">
+                            <button id="btn-introduction-company">
+                                <a href="/docs/MRNTD_Introduction_1012.pdf" style="color: white;">Introduction Download</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="index_contents">
+                    <div class="text_wrap">
+                        <h1>Our Vision</h1>
+                        <hr style="width: 10%; color: black; border: thin solid;">
+                        <h2>우리의 비전은 마케팅을 통해 고객사와 구성원이 함께 성장하는 것입니다.</h2>
+                    </div>
+                    <div class="vision">
+                        <div class="component">
+                            <h2>Growth 1.</h2>
+                            <div class="vision_list">
+                            <p><strong>고객사의 성장</strong></p>
+                            <p>면밀하게 분석하고,<br>예리하게 전략을 세우고,<br>기민하게 행동하여<br>고객사의 성장을 달성합니다.<br></p>
+                            </div>
+                        </div>
+                        <div class="component">
+                                <h2>Growth 2.</h2>
+                                <div class="vision_list">
+                                <p><strong>구성원의 성장</strong></p>
+                                <p>탁월함에 대한 열망,<br>집요한 탐구심,<br>경험 공유 정신을 기반으로<br>최고의 전문가로 성장합니다.</p>
+                                </div>
+                        </div>
+                        <div class="component">
+                                <h2>Thnk for Ever</h2>
+                                <ol class="vision_list">
+                                    <li><p>&nbsp; </p></li>
+                                    <li><p>"EVERYONE. <strong>다 함께</strong> 생각합니다."</p></li>
+                                    <li><p>"EVERYTHING. <strong>모든 것을</strong> 생각합니다."</p></li>
+                                    <li><p>"EVERYDAY. <strong>끊임없이</strong> 생각합니다."</p></li>
+                                    <li><p>"FOREVER. <strong>끝 없이</strong> 생각합니다."</p></li>
+                                </ol>
+                        </div>
+                    </div> 
+                </div>
+        </div>
+        
+        <!-- 푸터 공통 부분 -->
+        <div class="footer">
+            <div class="footer_contents">
+                <div class="footer_logo">
+                    <img class="logo_img" src="/img/logo_w.png" alt="Moriented">
+                </div>
+                <div class="footer_text">
+                <ul class="name_inc">
+                    <li><b>회사명 : </b>(주)모리엔티드 | <b>대표 : </b>문연윤 | <b>주소 : </b>서울특별시 강남구 테헤란로6길 26, 4층(역삼동, 강남포르테빌딩)</li>
+                    <li><b>사업자등록번호 : </b> 743-81-01288 | <b>전화번호 : </b>02-6956-6997~6998 | <b>이메일 : </b>marketing@moriented.co.kr</li>
+                    <li class="copyright">Copyright ⓒ 2019 Moriented All rights reserved.</li>
+                </ui>
+                </div>
+            </div>
+        </div>
+        <!-- 푸터 공통 부분 끝 -->
+    </body>
+</html>
