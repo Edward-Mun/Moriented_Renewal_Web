@@ -15,7 +15,7 @@ hr {width: 10%; color:white; border: thin solid; margin: auto auto auto 0;}
 
 /* 컨텐츠 와꾸 잡기 */
 
-.first_contents {background:fixed; background-image: url(/img/main_1.jpg); background-size: cover; background-position: center; width: auto; height: 86.8vh; padding: 150px 50px 30px;}
+.first_contents {background:fixed; background-image: url(img/main_1.jpg); background-size: cover; background-position: center; width: auto; height: 86.8vh; padding: 150px 50px 30px;}
 .first_contents .text_wrap {position:fixed;}
 .first_contents h1 {color: white}
 .first_contents h2 {color: white; text-align: left; margin-top: 10px;}
